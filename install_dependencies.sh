@@ -36,6 +36,6 @@ make && make install
 cd /tmp 
 rm -rf fmt
 
-sudo apt-get install python3-pip
-pip3 install --user -r py/requirements.txt
+#sudo apt-get install python3-pip
+#pip3 install --user -r py/requirements.txt
 
