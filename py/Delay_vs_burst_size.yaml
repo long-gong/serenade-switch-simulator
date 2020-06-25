@@ -1,0 +1,20 @@
+Delay_vs_burst_size_NEW:
+  simulator: [C_Serenade_Proof_sim, O_Serenade_Proof_sim]
+  fixed_args: -m 30000 -l 0.95 -B 10000 -F 100 -p 64 -v 1
+  fixed_args_with_multiple_values:
+    - arg: b
+      values: [1, 2, 4, 8, 16, 32, 64, 128, 256, 512]
+
+Delay_vs_burst_size_SERENA:
+  simulator: [Serena_sim]
+  fixed_args: -m 20000 -l 0.95 -p 64 -v 1
+  fixed_args_with_multiple_values:
+    - arg: b
+      values: [1, 2, 4, 8, 16, 32, 64, 128, 256, 512]
+
+Delay_vs_burst_size_iSLIP:
+  simulator: [iSLIP_sim]
+  fixed_args: -m 20000 -l 0.95 -p 64 -t u -v 1
+  fixed_args_with_multiple_values:
+    - arg: b
+      values: [1, 2, 4, 8, 16, 32, 64, 128, 256, 512]

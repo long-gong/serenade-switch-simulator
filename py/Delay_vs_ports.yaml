@@ -1,0 +1,23 @@
+Delay_vs_ports_SERENA:
+  simulator: [Serena_sim]
+  fixed_args: -m 20000 -l 0.95 -v 1
+  variant_args:
+    - arg: p 
+      values: [8, 16, 32, 64, 128]
+
+
+Delay_vs_ports_iSLIP:
+  simulator: [iSLIP_sim]
+  fixed_args: -m 20000 -l 0.95 -t u -v 1
+  variant_args:
+    - arg: p 
+      values: [8, 16, 32, 64, 128]
+
+Delay_vs_ports_NEW:
+  simulator: [C_Serenade_Proof_sim, O_Serenade_Proof_sim]
+  fixed_args: -m 30000 -l 0.95 -B 10000 -F 100 -v 1
+  variant_args:
+    - arg: p 
+      values: [8, 16, 32, 64, 128]
+
+

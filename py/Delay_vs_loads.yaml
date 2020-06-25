@@ -1,0 +1,21 @@
+Delay_vs_loads_NEW:
+  simulator: [C_Serenade_Proof_sim, O_Serenade_Proof_sim]
+  fixed_args: -m 30000 -p 64 -B 10000 -F 100 -v 1
+
+Delay_vs_loads_SERENA:
+  simulator: [Serena_sim]
+  fixed_args: -m 20000 -p 64 -v 1
+
+Delay_vs_loads_iSLIP:
+  simulator: [iSLIP_sim]
+  fixed_args: -m 20000 -p 64 -v 1
+  fixed_args_with_multiple_values:
+    - arg: l 
+      values: [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8]
+
+Delay_vs_loads_iSLIP_More:
+  simulator: [iSLIP_sim]
+  fixed_args: -m 20000 -p 64 -t u -v 1
+  fixed_args_with_multiple_values:
+    - arg: l 
+      values: [0.9, 0.95, 0.99]

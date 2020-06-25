@@ -1,0 +1,5 @@
+// the configured options and settings for LWS
+#cmakedefine LWS_MAJOR_VERSION @LWS_MAJOR_VERSION@
+#cmakedefine LWS_MINOR_VERSION @LWS_MINOR_VERSION@
+#cmakedefine LWS_PATCH_VERSION @LWS_PATCH_VERSION@
+#cmakedefine LWS_VERSION @LWS_VERSION@

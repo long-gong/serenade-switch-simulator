@@ -1,0 +1,3 @@
+Delay_vs_loads_PATCH:
+  simulator: [C_Serenade_sim, O_Serenade_sim]
+  fixed_args: -m 30000 -p 128 -v 1

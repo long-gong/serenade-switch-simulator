@@ -1,0 +1,6 @@
+Delay_vs_ports_NEW:
+  simulator: [SC_Serenade_sim, SO_Serenade_sim, E_Serenade_sim]
+  fixed_args: -m 30000 -l 0.95 -B 10000 -F 100 -v 1
+  variant_args:
+    - arg: p 
+      values: [64, 8, 16, 32, 128]
