@@ -1,5 +1,7 @@
 # SWITCH SIMULATOR for SERENADE
 
+[![Build Status](https://travis-ci.org/long-gong/switch-simulator-serenade.svg?branch=master)](https://travis-ci.org/long-gong/switch-simulator-serenade)
+
 Simulation codes for our switching paper:
 
 Gong, L., Liu, L., Yang, S., Xu, J.J., Xie, Y. and Wang, X., 2020, May. SERENADE: A Parallel Iterative Algorithm for Crossbar Scheduling in Input-Queued Switches. In 2020 IEEE 21st International Conference on High Performance Switching and Routing (HPSR) (pp. 1-6). IEEE.
